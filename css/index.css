@@ -8,13 +8,52 @@
     height: 600px;
     width: 300px;
     display: block;
+    border-radius: 15px 0px 0px 15px;
 }
 #contenido {
     background-color: #995533;
     height: 600px;
     width: 500px;
-    display: block;
+    display: inline-block;
     position: absolute;
     top: 8px;
     right: 625px;
+    border-radius: 0px 15px 15px 0px;
+}
+#campo-foto{
+    background-color: aliceblue;
+    height: 150px;
+    width: 300px;
+}
+#avatar{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    display: inline-block;
+}
+#nombre-avatar{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 100px;
+    width: 190px;
+    position: relative;
+    top: -50px;
+    left: 30px;
+    display: inline-block;
+    
+}
+#segunda-caja-navegar{
+    background-color: #ffccee;
+    height: 350px;
+    width: 300px;
+}
+#tercera-caja-navegar{
+    background-color: #ccdf00;
+    height: 100px;
+    width: 300px;
 }
