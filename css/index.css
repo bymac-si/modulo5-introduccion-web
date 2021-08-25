@@ -1,0 +1,20 @@
+#container {
+    background-color:#f5ff90;
+    height: 600px;
+    width: 800px;
+}
+#menu {
+    background-color: #d6ffb7;
+    height: 600px;
+    width: 300px;
+    display: block;
+}
+#contenido {
+    background-color: #995533;
+    height: 600px;
+    width: 500px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 625px;
+}
